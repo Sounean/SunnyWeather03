@@ -1,0 +1,8 @@
+logic
+    dao     (存放数据访问对象)
+    model   （对象模型）
+    network  （网络相关）
+ui
+    place
+    weather
+SunnyWeatherApplication //因为Application的特殊性，全程存在，所以放全程都可能需要的东西：1.MVVM进行分层解耦后，ViewModel层就不再持有Act的引用，会出现缺Context的情况，所以需要有个全程存在的对象存放；2.Token全程都需要所以也放这里
