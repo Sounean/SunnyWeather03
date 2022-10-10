@@ -7,6 +7,10 @@ android {
     namespace 'com.example.sunnyweather'
     compileSdk 32
 
+    buildFeatures {
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.example.sunnyweather"
         minSdk 21
@@ -30,6 +34,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
 }
 
 dependencies {

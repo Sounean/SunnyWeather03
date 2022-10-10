@@ -1,9 +1,10 @@
 package com.example.sunnyweather.logic.network
 
-import android.telecom.Call
+//import android.telecom.Call
 import com.example.sunnyweather.logic.model.PlaceResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
+import retrofit2.Call
 
 /**
 
